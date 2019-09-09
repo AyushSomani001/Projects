@@ -1,0 +1,16 @@
+del(X,[],[]).
+del(X,[X|L],Z):-del(X,L,Z).
+del(X,[Head|Tail],[HZ|HT]):-del(X,Tail,HT).
+
+permute([],[]).
+permute([Head|Tail],L):-del(Head,L,L1),permute(Tail,L1).
+
+
+
+
+
+
+
+
+nqueen(0,[]).
+nqueen(N,[Head|Tail]):-N1 is N-1,nqueen(N1,Tail),Head >0,N2 is N+1,Head<N2,check

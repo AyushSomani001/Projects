@@ -1,0 +1,12 @@
+member(X,[X|Tail]).
+member(X,[Head|Tail]):-member(X,Head).
+member(X,[Head|Tail]):-member(X,Tail).
+conc([],L,L).
+conc([X|L1],L2,[X|L3]):-conc(L1,L2,L3).
+addfront(X,L1,[X|L1]).
+delfront([X|L],L).
+del(X,[X|L],L).
+del(X,[Head|Tail],[Head|L]):-del(X,Tail,L).
+delalloccr(X,[],[]).
+delalloccr(X,[X|L1],L2):-delalloccr(X,L1,L2).
+delalloccr(X,[Head|Tail],[Head|L1]):-delalloccr(X,Tail,L1).
