@@ -1,5 +1,5 @@
 //MAKING MIRROR IMAGES OF GIVEN PPM FILE
-//Authors: Madhur Chauhan, Abhishek Tyagi, Utkarsh Aggarwal
+//Authors: Ayush Somani
 #include<stdio.h>
 int main()
 {
