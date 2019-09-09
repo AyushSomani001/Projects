@@ -1,3 +1,5 @@
+//Contributor: Ayush Somani
+
 #include <bits/stdc++.h>
 using namespace std;
 #define N 3
