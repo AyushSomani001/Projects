@@ -1,3 +1,5 @@
+//Contributor: Ayush Somani
+
 #include<bits/stdc++.h>
 using namespace std;
 #define COMPUTER 1
@@ -288,7 +290,7 @@ void playTicTacToe(int whoseTurn)
 }
 int main()
 {
-    cout<<"WELCOME USER.........ENJOY PLAYING THE GAME---------------\n\n\n_____________ALL THE BEST_____________\n\n\nCreator:- PRAJWAL PRATIK\n\n";
+    cout<<"WELCOME USER.........ENJOY PLAYING THE GAME---------------\n\n\n_____________ALL THE BEST_____________\n\n\nCreator:- AYUSH SOMANI\n\n";
     cout<<"ENTER YOUR NAME  ";
     cin>>name;
     char WISH='Y';
