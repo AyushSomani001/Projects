@@ -19,5 +19,4 @@ As mentioned the segmentation is automatic and depending on the GMM the foregrou
 
 ### Resources
 
-1. **Report**: [`Download Report`](https://github.com/madhur4127/project/blob/master/Image-Segmentation-Graph-Cuts-GMM/report.pdf)
-2. **Presentation**: [`Download Presentation`](https://github.com/madhur4127/project/blob/master/Image-Segmentation-Graph-Cuts-GMM/presentation.pdf)
+2. **Presentation**: [`Download Presentation`](https://github.com/AyushSomani001/Projects/blob/master/Image-Segmentation-using-Graph-Cuts-GMM/presentation.pdf)
